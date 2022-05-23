@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export const Input: React.FC = (props) => {
+export const Input = (props) => {
   const { todoText, onChange } = props;
   return (
     <div>
